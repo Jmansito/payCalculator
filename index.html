@@ -1,0 +1,36 @@
+<!-- Description:-->
+<!-- Homework 2: Simple Pay Calculator that calculates specified values-->
+<!-- based on pay and hours worked-->
+<!-- Author - Josh Mansito-->
+<!-- Version - 9/5/2022-->
+<!---->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Input Page</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Simple Pay Calculator</h1>
+
+        <form action="/results.php" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="hr-pay">Hourly Pay:</label>
+            <input type="text" id="hr-pay" name="hr-pay"><br><br>
+            <label for="hr-work">Hours Worked:</label>
+            <input type="text" id="hr-work" name="hr-work"><br><br>
+            <input type="submit" value="Calculate">
+        </form>
+
+    </div>
+    <div style="clear:both"></div>
+
+</body>
+</html>
